@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: radial-gradient(circle at top, #0b0f1a, #000);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+#ui {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+#ui span {
+  display: block;
+  margin-bottom: 6px;
+}
+
+video {
+  display: none;
+}
